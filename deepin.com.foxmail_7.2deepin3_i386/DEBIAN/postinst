@@ -1,0 +1,35 @@
+#!/bin/bash
+
+PACK_NAME="deepin.com.foxmail"
+BOTTLE_NAME="Deepin-Foxmail"
+MIME_TYPE=""
+ACTIVEX_NAME=""
+
+#if [ -n "$MIME_TYPE" ]; then
+#    xdg-mime default ${PACK_NAME}.desktop $MIME_TYPE
+#fi
+
+if [ "$PACK_NAME" == "deepin.com.fjga" ]; then
+    for file in $(ls /home)
+    do
+        if [ -d "/home/$file/.config/autostart" ]
+        then
+            #echo /home/$file/.config/autostart/
+            desktop=$(cat /etc/xdg/user-dirs.defaults | grep DESKTOP | awk -F= '{print $2}')
+            if [ -n $desktop ]; then
+                cp /usr/local/share/applications/deepin.com.fjga.desktop /home/$file/$desktop
+            fi
+            cp /usr/local/share/applications/deepin.com.fjga.desktop /home/$file/.config/autostart/
+            sed -i "s#%u#\"autostart\"#" /home/$file/.config/autostart/deepin.com.fjga.desktop
+        fi
+    done
+fi
+
+if [ -n "$ACTIVEX_NAME" ]; then
+    cp /usr/local/share/pipelight/libpipelight.so /usr/lib/mozilla/plugins/libpipelight-${ACTIVEX_NAME}.so
+fi
+
+# Make sure the script returns 0
+true
+
+

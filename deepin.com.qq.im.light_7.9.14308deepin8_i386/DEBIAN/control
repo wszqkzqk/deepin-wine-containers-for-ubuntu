@@ -1,0 +1,13 @@
+Package: deepin.com.qq.im.light
+Version: 7.9.14308deepin8
+Architecture: i386
+Maintainer: Deepin WINE Team
+Installed-Size: 55746
+Depends: deepin-wine (>= 1.9-11), deepin-wine32, deepin-wine32-preloader, deepin-wine-helper, deepin-wine-uninstaller
+Conflicts: apps.com.qq.im.light
+Replaces: apps.com.qq.im.light
+Provides: apps.com.qq.im.light
+Section: non-free/otherosfs
+Priority: optional
+Multi-Arch: foreign
+Description: Tencent QQ Client on Deepin Wine

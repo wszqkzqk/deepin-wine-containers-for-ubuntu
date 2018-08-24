@@ -1,0 +1,10 @@
+Package: deepin.com.baidu.pan
+Version: 5.5.4deepin8
+Architecture: i386
+Maintainer: Deepin WINE Team
+Installed-Size: 78410
+Depends: deepin-wine (>= 1.9-11), deepin-wine32, deepin-wine32-preloader, deepin-wine-helper, deepin-wine-uninstaller
+Section: non-free/otherosfs
+Priority: optional
+Multi-Arch: foreign
+Description: Baidu net disk client on Deepin Wine

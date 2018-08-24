@@ -1,0 +1,12 @@
+#!/bin/sh
+
+ACTIVEX_NAME=""
+
+if [ -n "$ACTIVEX_NAME" ]; then
+    rm /usr/lib/mozilla/plugins/libpipelight-${ACTIVEX_NAME}.so
+fi
+
+# Make sure the script returns 0
+true
+
+
