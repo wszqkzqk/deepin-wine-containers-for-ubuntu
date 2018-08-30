@@ -22,9 +22,15 @@ Ubuntu 18.04 下（Gnome 桌面）：
 
 ## 三、参与贡献
 
-1. Fork 本项目
-2. 新建 Feat_xxx 分支
-3. 提交代码
-4. 新建 Pull Request
+* 1. Fork 本项目
+* 2. 新建 Feat_xxx 分支
+* 3. 提交代码
+* 4. 新建 Pull Request
+* 5. 捐赠：
+1. [捐赠开发者](https://bbs.deepin.org/forum.php?mod=viewthread&tid=40784&extra=page%3D1)
+
+2. 捐赠打包者（这个其实不需要，我的贡献并不多，支持deepin就好了，不过有人在问，我就加上吧）
+![](https://raw.githubusercontent.com/wszqkzqk/deepin-wine-containers-for-ubuntu/master/donate.png)
+
 
 欢迎大家积极反馈！
