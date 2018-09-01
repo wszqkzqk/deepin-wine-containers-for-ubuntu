@@ -13,6 +13,7 @@
 * 在[这里](https://github.com/wszqkzqk/deepin-wine-ubuntu)下载并安装deepin-wine环境后，选择自己需要的容器安装，安装完成即可启动相应程序使用。
 
 注意：**目前 KDE 桌面环境无法使用！**
+     **部分桌面环境无法正常使用视频通话功能！**
 
 ### 关于托盘
 
