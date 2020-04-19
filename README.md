@@ -2,7 +2,8 @@
 
 ## 一、项目介绍
 
-> Deepin-wine 容器的存档（目前仅为历史版本的存储库,使用deepin原版二进制文件）
+> Deepin-wine 容器的存档（多数容器目前仅为历史版本的存储库,使用deepin原版二进制文件）
+> TIM 3.0由腾讯官方的.exe安装文件打包，本人未进行修改，仅仅进行环境封装
 
 >声明：
 >因为使用本仓库的任何内容所导致的任何后果与本人无关，若你无法对使用该仓库后的任何后果负责，请不要使用本仓库的任何内容。
@@ -33,10 +34,8 @@ Ubuntu 18.04 下（Gnome 桌面）：
 * 3. 提交代码
 * 4. 新建 Pull Request
 * 5. 捐赠：
-1. [捐赠开发者](https://bbs.deepin.org/forum.php?mod=viewthread&tid=40784&extra=page%3D1)
+1. [捐赠开发者:deepin](https://bbs.deepin.org/forum.php?mod=viewthread&tid=40784&extra=page%3D1)
 
-2. 捐赠打包者（这个其实不需要，我的贡献并不多，支持deepin就好了，不过有人在问，我就加上吧）
-![](https://raw.githubusercontent.com/wszqkzqk/deepin-wine-containers-for-ubuntu/master/donate.png)
 
 
 欢迎大家积极反馈！
