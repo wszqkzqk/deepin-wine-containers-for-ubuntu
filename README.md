@@ -1,5 +1,7 @@
 # Deepin wine containers for Ubuntu
 
+## 本项目仅为存档，不再维护
+
 ## 一、项目介绍
 
 > Deepin-wine 容器的存档（多数容器目前仅为历史版本的存储库,使用deepin原版二进制文件）
